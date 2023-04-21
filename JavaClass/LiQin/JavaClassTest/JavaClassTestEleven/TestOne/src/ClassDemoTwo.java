@@ -3,7 +3,7 @@ import java.io.InputStream;
 import java.net.Socket;
 
 /**
- * @author 
+ * @author fujiwo
  */
 public class ClassDemoTwo {
     public static void main(String[] args) throws IOException {
