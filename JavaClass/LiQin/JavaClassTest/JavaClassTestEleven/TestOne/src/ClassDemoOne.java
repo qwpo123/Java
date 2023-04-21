@@ -8,7 +8,7 @@ import java.nio.charset.StandardCharsets;
 /**
  * @author fujiwo
  */
-public class classDemoOne {
+public class ClassDemoOne {
     public static void main(String[] args) throws IOException {
         Socket socket = new Socket("www.zime.edu.cn", 80);
         System.out.println(socket.getLocalPort());
