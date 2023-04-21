@@ -11,6 +11,8 @@ import java.nio.charset.StandardCharsets;
 public class ClassDemoOne {
     public static void main(String[] args) throws IOException {
         Socket socket = new Socket("www.zime.edu.cn", 80);
+        //InetAddress inetAddress = InetAddress.getByName("www.zime.edu.cn");
+        //Socket socket = new Socket(inetAddress, 80);
         System.out.println(socket.getLocalPort());
         System.out.println(socket.getChannel());
         socket.setSoTimeout(3000);
